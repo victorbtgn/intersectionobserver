@@ -1,0 +1,48 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Mousemove */
+
+.js-coords {
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+.input input {
+  margin-bottom: 20px;
+  width: 250px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding-left: 15px;
+  outline: none;
+}
+
+.input input::placeholder {
+  /* padding-left: 15px; */
+}
+
+.input p {
+  font-size: 30px;
+  font-weight: 900;
+}
