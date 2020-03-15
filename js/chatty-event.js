@@ -30,6 +30,10 @@ let inputCounter = 0;
 
 const debounceCallback = _.debounce(event => {
   inputCounter += 1;
+  
+  if (inputCounter === 0) {
+  outputRef.textContent = 'Some text'
+  }
 
   outputRef.textContent = `Кол-во вызовов input: ${inputCounter},
     Значение: ${event.target.value}`;
