@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>intersection observer</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container io">
+      <h1>intersection observer</h1>
+
+      <p class="back"><a href="/">на главную</a></p>
+
+      <div class="boxes">
+        <div class="box blue">1</div>
+        <div class="box red">2</div>
+        <div class="box green js-box">3</div>
+        <div class="box purple">4</div>
+        <div class="box darkcyan">5</div>
+      </div>
+    </div>
+
+    <!-- Polyfill for old browser -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver"></script>
+
+    <!-- My script -->
+    <script src="./js/io.js" type="module"></script>
+  </body>
+</html>

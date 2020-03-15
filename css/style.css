@@ -16,7 +16,23 @@ html {
   margin: 0 auto;
 }
 
-/* Mousemove */
+/* Primery index.html */
+
+.list-link {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.list-link li {
+  margin-bottom: 20px;
+}
+
+.back {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+/* Chatty event */
 
 .js-coords {
   margin-bottom: 30px;
@@ -25,7 +41,7 @@ html {
 }
 
 h1 {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .input input {
@@ -38,11 +54,54 @@ h1 {
   outline: none;
 }
 
-.input input::placeholder {
-  /* padding-left: 15px; */
-}
-
 .input p {
   font-size: 30px;
   font-weight: 900;
+}
+
+/* io */
+
+.box {
+  height: 500px;
+  font-size: 150px;
+  color: whitesmoke;
+  text-align: center;
+  margin-bottom: 50px;
+  padding-top: 150px;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.darkcyan {
+  background-color: darkcyan;
+}
+
+/* Lazy load */
+
+.forest {
+  list-style: none;
+}
+
+.forest img,
+.forest p {
+  margin-bottom: 30px;
+}
+
+.forest p {
+  font-size: 20px;
+  line-height: 1.3;
 }
