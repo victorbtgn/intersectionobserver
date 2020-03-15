@@ -21,7 +21,7 @@ const throttledCallback = _.throttle(event => {
 
 window.addEventListener("mousemove", throttledCallback);
 
-// _.debounce
+// _.debounce =========================
 
 const inputRef = document.querySelector(".js-input");
 const outputRef = document.querySelector(".js-output");
